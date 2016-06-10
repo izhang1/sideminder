@@ -1,0 +1,296 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB4A780D1CF7F01000177971 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A780C1CF7F01000177971 /* AppDelegate.swift */; };
+		EB4A780F1CF7F01000177971 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB4A780E1CF7F01000177971 /* ViewController.swift */; };
+		EB4A78121CF7F01000177971 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4A78101CF7F01000177971 /* Main.storyboard */; };
+		EB4A78141CF7F01000177971 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB4A78131CF7F01000177971 /* Assets.xcassets */; };
+		EB4A78171CF7F01000177971 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB4A78151CF7F01000177971 /* LaunchScreen.storyboard */; };
+		EBB4F2AB1D0AEF2B00492C5E /* ProjectTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBB4F2AA1D0AEF2B00492C5E /* ProjectTableCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB4A78091CF7F01000177971 /* Sideminder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sideminder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB4A780C1CF7F01000177971 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB4A780E1CF7F01000177971 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB4A78111CF7F01000177971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB4A78131CF7F01000177971 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB4A78161CF7F01000177971 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB4A78181CF7F01000177971 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBB4F2AA1D0AEF2B00492C5E /* ProjectTableCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectTableCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB4A78061CF7F01000177971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB4A78001CF7F01000177971 = {
+			isa = PBXGroup;
+			children = (
+				EB4A780B1CF7F01000177971 /* Sideminder */,
+				EB4A780A1CF7F01000177971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB4A780A1CF7F01000177971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A78091CF7F01000177971 /* Sideminder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB4A780B1CF7F01000177971 /* Sideminder */ = {
+			isa = PBXGroup;
+			children = (
+				EB4A780C1CF7F01000177971 /* AppDelegate.swift */,
+				EBB4F2AA1D0AEF2B00492C5E /* ProjectTableCell.swift */,
+				EB4A780E1CF7F01000177971 /* ViewController.swift */,
+				EB4A78101CF7F01000177971 /* Main.storyboard */,
+				EB4A78131CF7F01000177971 /* Assets.xcassets */,
+				EB4A78151CF7F01000177971 /* LaunchScreen.storyboard */,
+				EB4A78181CF7F01000177971 /* Info.plist */,
+			);
+			path = Sideminder;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB4A78081CF7F01000177971 /* Sideminder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB4A781B1CF7F01000177971 /* Build configuration list for PBXNativeTarget "Sideminder" */;
+			buildPhases = (
+				EB4A78051CF7F01000177971 /* Sources */,
+				EB4A78061CF7F01000177971 /* Frameworks */,
+				EB4A78071CF7F01000177971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sideminder;
+			productName = Sideminder;
+			productReference = EB4A78091CF7F01000177971 /* Sideminder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB4A78011CF7F01000177971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = NovusApp;
+				TargetAttributes = {
+					EB4A78081CF7F01000177971 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = EB4A78041CF7F01000177971 /* Build configuration list for PBXProject "Sideminder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB4A78001CF7F01000177971;
+			productRefGroup = EB4A780A1CF7F01000177971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB4A78081CF7F01000177971 /* Sideminder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB4A78071CF7F01000177971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4A78171CF7F01000177971 /* LaunchScreen.storyboard in Resources */,
+				EB4A78141CF7F01000177971 /* Assets.xcassets in Resources */,
+				EB4A78121CF7F01000177971 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB4A78051CF7F01000177971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB4A780F1CF7F01000177971 /* ViewController.swift in Sources */,
+				EB4A780D1CF7F01000177971 /* AppDelegate.swift in Sources */,
+				EBB4F2AB1D0AEF2B00492C5E /* ProjectTableCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB4A78101CF7F01000177971 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4A78111CF7F01000177971 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB4A78151CF7F01000177971 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB4A78161CF7F01000177971 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB4A78191CF7F01000177971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB4A781A1CF7F01000177971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB4A781C1CF7F01000177971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sideminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = novusapp.sideminder.app.Sideminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB4A781D1CF7F01000177971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Sideminder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = novusapp.sideminder.app.Sideminder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB4A78041CF7F01000177971 /* Build configuration list for PBXProject "Sideminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A78191CF7F01000177971 /* Debug */,
+				EB4A781A1CF7F01000177971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB4A781B1CF7F01000177971 /* Build configuration list for PBXNativeTarget "Sideminder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB4A781C1CF7F01000177971 /* Debug */,
+				EB4A781D1CF7F01000177971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB4A78011CF7F01000177971 /* Project object */;
+}
